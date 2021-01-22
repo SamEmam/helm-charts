@@ -15,8 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
-  "iteration": 1603959407891,
+  "id": 1,
+  "iteration": 1611306623679,
   "links": [],
   "panels": [
     {
@@ -38,7 +38,7 @@
         "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Deployment Frequency || ${query_interval} interval || ${deployment_caltype} values</span>\n</div>\n",
         "mode": "html"
       },
-      "pluginVersion": "7.1.0",
+      "pluginVersion": "7.3.1",
       "targets": [
         {
           "groupBy": [
@@ -92,7 +92,116 @@
         "defaults": {
           "custom": {}
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 7"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Player"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 2"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Video Platform"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 3"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Data Science & Engineering"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 11"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "App Team iOS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 13"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "tv2.dk & CMS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 14"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "DevOps"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 1"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Integration & Services"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 8"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Access Management"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "deploy 9"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Subscription Management"
+              }
+            ]
+          }
+        ]
       },
       "fill": 1,
       "fillGradient": 0,
@@ -122,7 +231,7 @@
         "alertThreshold": false
       },
       "percentage": false,
-      "pluginVersion": "7.2.1",
+      "pluginVersion": "7.3.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -230,7 +339,7 @@
         "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Mean Time To Restore || ${query_interval} interval || ${MTTR_caltype} values</span>\n</div>\n",
         "mode": "html"
       },
-      "pluginVersion": "7.1.0",
+      "pluginVersion": "7.3.1",
       "targets": [
         {
           "groupBy": [
@@ -285,7 +394,164 @@
           "custom": {},
           "unit": "ms"
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 1"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Integration & Services"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 2"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Video Platform"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 3"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Data Science & Engineering"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 4"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Play Web"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 5"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Play Big Screens"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 7"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Player"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 9"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Subscription Management"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 10"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "PLAY Apps"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 11"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "App Team iOS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 12"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "App Team Android"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 13"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "tv2.dk & CMS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 14"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "DevOps"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 15"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Site Reliability Engineering"
+              }
+            ]
+          }
+        ]
       },
       "fill": 1,
       "fillGradient": 0,
@@ -315,7 +581,7 @@
         "alertThreshold": false
       },
       "percentage": false,
-      "pluginVersion": "7.2.1",
+      "pluginVersion": "7.3.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -420,10 +686,10 @@
       },
       "id": 8,
       "options": {
-        "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Delivery Lead Time || ${query_interval} interval || ${leadTime_caltype} values</span>\n</div>\n",
+        "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Lead Time for Deploy || ${query_interval} interval || ${leadTime_caltype} values</span>\n</div>\n",
         "mode": "html"
       },
-      "pluginVersion": "7.1.0",
+      "pluginVersion": "7.3.1",
       "targets": [
         {
           "groupBy": [
@@ -478,7 +744,56 @@
           "custom": {},
           "unit": "ms"
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 3"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "Data Science & Engineering"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 11"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "App Team iOS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 13"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "tv2.dk & CMS"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "duration 14"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "DevOps"
+              }
+            ]
+          }
+        ]
       },
       "fill": 1,
       "fillGradient": 0,
@@ -508,7 +823,7 @@
         "alertThreshold": false
       },
       "percentage": false,
-      "pluginVersion": "7.2.1",
+      "pluginVersion": "7.3.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -534,7 +849,7 @@
           ],
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"DeliveryLeadTime\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"duration\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> aggregateWindow(every: ${query_interval}, fn: ${leadTime_caltype}, createEmpty: false)\r\n  |> yield(name: \"${leadTime_caltype}\")",
+          "query": "from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"LeadTimeForDeploy\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"duration\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> aggregateWindow(every: ${query_interval}, fn: ${leadTime_caltype}, createEmpty: false)\r\n  |> yield(name: \"${leadTime_caltype}\")",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -613,10 +928,10 @@
       },
       "id": 10,
       "options": {
-        "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Release Success Rate || ${query_interval} interval || Percentage values</span>\n</div>\n",
+        "content": "<div class=\"text-center dashboard-header\">\n  <span style=\"border-bottom-width: 2px;\">Change Failure Rate || ${query_interval} interval || Percentage values</span>\n</div>\n",
         "mode": "html"
       },
-      "pluginVersion": "7.1.0",
+      "pluginVersion": "7.3.1",
       "targets": [
         {
           "groupBy": [
@@ -701,7 +1016,7 @@
         "alertThreshold": false
       },
       "percentage": false,
-      "pluginVersion": "7.2.1",
+      "pluginVersion": "7.3.1",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -727,7 +1042,7 @@
           ],
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "t1 = from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"ReleaseSuccessRate_bug_count\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"bug_count\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> toFloat()\r\n  |> aggregateWindow(every: ${query_interval}, fn: sum, createEmpty: false)\r\n\r\nt2 = from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"DeploymentFrequency\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"deploy\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> toFloat()\r\n  |> aggregateWindow(every: ${query_interval}, fn: sum, createEmpty: false)\r\n\r\njoin(tables: {t1: t1, t2: t2}, on: [\"team\", \"_time\"])\r\n  |> map(fn: (r) => ({ r with _value: (r._value_t2 + r._value_t1) / r._value_t2 * 100.0}))",
+          "query": "t1 = from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"ChangeFailureRateBugCount\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"bug_count\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> toFloat()\r\n  |> aggregateWindow(every: ${query_interval}, fn: sum, createEmpty: false)\r\n\r\nt2 = from(bucket: \"accelerate\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"DeploymentFrequency\")\r\n  |> filter(fn: (r) => r[\"_field\"] == \"deploy\")\r\n  |> filter(fn: (r) => r[\"team\"] == \"${team}\")\r\n  |> toFloat()\r\n  |> aggregateWindow(every: ${query_interval}, fn: sum, createEmpty: false)\r\n\r\njoin(tables: {t1: t1, t2: t2}, on: [\"team\", \"_time\"])\r\n  |> map(fn: (r) => ({ r with _value: (r._value_t2 + r._value_t1) / r._value_t2 * 100.0}))",
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -791,7 +1106,7 @@
       }
     }
   ],
-  "refresh": "5s",
+  "refresh": "15m",
   "schemaVersion": 26,
   "style": "dark",
   "tags": [],
@@ -803,9 +1118,10 @@
         "auto_min": "10s",
         "current": {
           "selected": false,
-          "text": "1d",
-          "value": "1d"
+          "text": "7d",
+          "value": "7d"
         },
+        "error": null,
         "hide": 0,
         "label": null,
         "name": "query_interval",
@@ -831,7 +1147,7 @@
             "value": "12h"
           },
           {
-            "selected": true,
+            "selected": false,
             "text": "1d",
             "value": "1d"
           },
@@ -841,7 +1157,7 @@
             "value": "3d"
           },
           {
-            "selected": false,
+            "selected": true,
             "text": "7d",
             "value": "7d"
           },
@@ -869,6 +1185,7 @@
           "text": "mean",
           "value": "mean"
         },
+        "error": null,
         "hide": 2,
         "includeAll": false,
         "label": null,
@@ -898,6 +1215,7 @@
           "text": "sum",
           "value": "sum"
         },
+        "error": null,
         "hide": 2,
         "includeAll": false,
         "label": null,
@@ -927,6 +1245,7 @@
           "text": "mean",
           "value": "mean"
         },
+        "error": null,
         "hide": 2,
         "includeAll": false,
         "label": null,
@@ -950,12 +1269,13 @@
         "type": "custom"
       },
       {
-        "allValue": "Integration & Services\" or r[\"team\"] == \"Video Platform\" or r[\"team\"] == \"Data Science & Engineering\" or r[\"team\"] == \"Play Web\" or r[\"team\"] == \"Play Big Screens\" or r[\"team\"] == \"Streaming\" or r[\"team\"] == \"Player\" or r[\"team\"] == \"Access Management\" or r[\"team\"] == \"Subscription Management\" or r[\"team\"] == \"PLAY Apps\" or r[\"team\"] == \"App Team iOS\" or r[\"team\"] == \"App Team Android\" or r[\"team\"] == \"tv2.dk & CMS\" or r[\"team\"] == \"DevOps",
+        "allValue": "1\" or r[\"team\"] == \"2\" or r[\"team\"] == \"3\" or r[\"team\"] == \"4\" or r[\"team\"] == \"5\" or r[\"team\"] == \"6\" or r[\"team\"] == \"7\" or r[\"team\"] == \"8\" or r[\"team\"] == \"9\" or r[\"team\"] == \"10\" or r[\"team\"] == \"11\" or r[\"team\"] == \"12\" or r[\"team\"] == \"13\" or r[\"team\"] == \"14\" or r[\"team\"] == \"15\" or r[\"team\"] == \"16",
         "current": {
           "selected": false,
           "text": "All",
           "value": "$__all"
         },
+        "error": null,
         "hide": 0,
         "includeAll": true,
         "label": null,
@@ -969,76 +1289,86 @@
           },
           {
             "selected": false,
-            "text": "Integration & Services",
-            "value": "Integration & Services"
+            "text": "1",
+            "value": "1"
           },
           {
             "selected": false,
-            "text": "Video Platform",
-            "value": "Video Platform"
+            "text": "2",
+            "value": "2"
           },
           {
             "selected": false,
-            "text": "Data Science & Engineering",
-            "value": "Data Science & Engineering"
+            "text": "3",
+            "value": "3"
           },
           {
             "selected": false,
-            "text": "Play Web",
-            "value": "Play Web"
+            "text": "4",
+            "value": "4"
           },
           {
             "selected": false,
-            "text": "Play Big Screens",
-            "value": "Play Big Screens"
+            "text": "5",
+            "value": "5"
           },
           {
             "selected": false,
-            "text": "Streaming",
-            "value": "Streaming"
+            "text": "6",
+            "value": "6"
           },
           {
             "selected": false,
-            "text": "Player",
-            "value": "Player"
+            "text": "7",
+            "value": "7"
           },
           {
             "selected": false,
-            "text": "Access Management",
-            "value": "Access Management"
+            "text": "8",
+            "value": "8"
           },
           {
             "selected": false,
-            "text": "Subscription Management",
-            "value": "Subscription Management"
+            "text": "9",
+            "value": "9"
           },
           {
             "selected": false,
-            "text": "PLAY Apps",
-            "value": "PLAY Apps"
+            "text": "10",
+            "value": "10"
           },
           {
             "selected": false,
-            "text": "App Team iOS",
-            "value": "App Team iOS"
+            "text": "11",
+            "value": "11"
           },
           {
             "selected": false,
-            "text": "App Team Android",
-            "value": "App Team Android"
+            "text": "12",
+            "value": "12"
           },
           {
             "selected": false,
-            "text": "tv2.dk & CMS",
-            "value": "tv2.dk & CMS"
+            "text": "13",
+            "value": "13"
           },
           {
             "selected": false,
-            "text": "DevOps",
-            "value": "DevOps"
+            "text": "14",
+            "value": "14"
+          },
+          {
+            "selected": false,
+            "text": "15",
+            "value": "15"
+          },
+          {
+            "selected": false,
+            "text": "16",
+            "value": "16"
           }
         ],
-        "query": "Integration & Services, Video Platform, Data Science & Engineering, Play Web, Play Big Screens, Streaming, Player, Access Management, Subscription Management, PLAY Apps, App Team iOS, App Team Android, tv2.dk & CMS, DevOps",
+        "query": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
         "queryValue": "",
         "skipUrlSync": false,
         "type": "custom"
@@ -1046,12 +1376,12 @@
     ]
   },
   "time": {
-    "from": "now-14d",
-    "to": "now"
+    "from": "now-91d",
+    "to": "now-1d"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Accelerate Dashboard",
   "uid": "ecrmlOtMz",
-  "version": 5
+  "version": 1
 }
